@@ -1,0 +1,755 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    /*font: 16px/26px Helvetica, Helvetica Neue, Arial;*/
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body, div, p, h1, h2, h3, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /*font-family: "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;*/
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 25px;
+}
+
+html {
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+    float: left;
+}
+
+.li-spacer {
+    height: 20px;
+    width: 20px;
+    background-image: none;
+    background-color: none;
+    color: none;
+}
+
+#page-main {
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.big-div {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: auto;
+}
+
+.aligner {
+    max-width: 1024px;
+    min-width: 260px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* --- Big Div --- */
+.big-div-smallcode {
+    background-color: #f5f5f5;
+    color: #df3e1f;
+}
+
+.big-div-smallcode .aligner {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.big-div-smallcode p {
+    font-family: 'Muli', sans-serif;
+    font-size: 49px;
+}
+
+.grey-divider {
+    background-color: #e6e6e6;
+}
+
+.big-div-smallcode .grey-divider {
+    height: 30px;
+}
+
+/* --- Big Div --- */
+.big-div-intro {
+    background-color: #161826;
+    color: #9c9eaa;
+}
+
+.big-div-intro .aligner {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.big-div-intro p {
+    font-size: 50px;
+}
+
+.big-div-intro p span {
+    /*color: #9c9eaa;*/
+    color: #DB6C22;
+}
+
+/* --- Big Div --- */
+.big-div-projects {
+    background-color: #626acc;
+    /*color: #393e79;*/
+    color: #252056;
+}
+
+.big-div-projects .aligner {
+    padding-top: 140px;
+    padding-bottom: 170px;
+}
+
+.big-div-projects .li-spacer {
+    width: 50px;
+}
+
+.big-div-projects p {
+    font-size: 35px;
+}
+
+.big-div-projects .comment {
+    font-size: 20px;
+    color: #484093;
+    font-style: italic;
+}
+
+.big-div-projects ul {
+    padding-top: 80px;
+}
+
+/* Project thumbnails */
+.big-div-projects ul li a {
+    width: 160px;
+    height: 160px;
+    background-color: #242966;
+
+    /*-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;*/
+    border: 5px solid #313893;
+}
+
+/* --- Big Div --- */
+.big-div-personal {
+    background-color: #ffffff;
+    color: #484848;
+}
+
+.big-div-personal .ed {
+    padding-top: auto;
+}
+
+
+.big-div-personal .ed1 {
+    font-family: "Merriweather Sans";
+    /*font-size: 25px;*/
+}
+
+.big-div-personal .ed2 {
+    font-family: "Merriweather Sans";
+    font-size: 23px;
+    color: #635D6C;
+    font-style: italic;
+}
+
+.big-div-personal .ed3 {
+    font-size: 22px;
+}
+
+.big-div-personal .ed4 {
+    
+}
+
+.big-div-personal .grey-divider {
+    height: 50px;
+}
+
+.big-div-personal .title {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 55px;
+    /*color: #3C37AF;*/
+    color: #704597;
+}
+
+.big-div-personal hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(151, 151, 151, 0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(151, 151, 151, 0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(151, 151, 151, 0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(151, 151, 151, 0.75), rgba(0,0,0,0)); 
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 30%;
+}
+
+.personal-chunk {
+    padding-bottom: 50px;
+}
+
+.sub-personal-chunk {
+    padding-bottom: 20px;
+}
+
+.personal-head {
+    color: #e7552e;
+
+    font-family: 'Puritan', sans-serif;
+    font-size: 34px;
+}
+
+.personal-subhead {
+    /*color: #3c6fa8;*/
+    color: #DB716A;
+
+    font-family: "Lucida Sans Unicode";
+}
+
+/* --- Big Div --- */
+.big-div-email {
+    background-color: #39c675;
+    color: #117A3E;
+}
+
+.big-div-email .aligner {
+    padding-top: 190px;
+    padding-bottom: 190px;
+}
+
+.big-email-label {
+    color: #c91040;
+
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: 'Muli', sans-serif;
+}
+
+/* --- Big Div --- */
+.big-div-footer {
+    background-color: #0f0f15;
+    color: #717178;
+}
+
+.big-div-footer .aligner {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.big-div-footer p {
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+
+.big-div-footer .comment {
+    font-family: "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    color: #2C2C3C;
+    font-size: 16px;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+.big-div-footer hr {
+    /* Single-direction drop shadow */
+    /* css-tricks.com/examples/hrs/ */ 
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.big-div-footer .li-spacer {
+    width: 80px;
+}
+
+.socialbutton {
+    width: 60px;
+    height: 60px;
+}
+
+.facebook {
+    background: url("../svg/Facebook.svg");
+}
+
+.twitter {
+    background: url("../svg/Twitter.svg");
+}
+
+.googleplus {
+    background: url("../svg/GooglePlus.svg");
+}
+
+/* ---------------------------------------------------- */
+
+@media only screen and (max-width: 670px) {
+    ul li {
+        display: block;
+        float: none;
+        padding-top: 20px;
+    }
+
+    .li-spacer {
+        display: none;
+    }
+
+    .big-div-intro p {
+        font-size: 35px;
+    }
+
+    .big-email-label {
+        font-size: 20px;
+        font-family: inherit;
+        font-weight: bold;
+    }
+
+    .personal-chunk {
+        padding-bottom: 65px;
+    }
+
+    .big-div-personal hr {
+        width: 90%;
+    }
+
+}
+
+/* For mobile 320px */
+@media only screen and (min-width : 200px) and (max-width: 430px) {
+    body, div, p, h1, h2, h3, ul, li, a {
+       font-size: 16px;
+    }
+
+    .aligner {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .big-div-intro p {
+       font-size: 25px;
+    }
+
+    .big-div-personal .title {
+       font-size: 35px;
+    }
+
+    .personal-head {
+       font-size: 25px;
+    }
+
+    .big-div-personal .ed {
+        padding-top: 3px;
+    }
+
+    .big-div-personal .ed2 {
+       font-size: 16px;
+    }
+
+    .big-div-personal .ed3 {
+       font-size: 14px;
+    }
+
+    .big-email-label {
+       font-size: 15px;
+    }
+
+    .big-div-footer p {
+       font-size: 30px;
+    }
+
+}
+
+/* ---------------------------------------------------- */
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
