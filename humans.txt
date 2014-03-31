@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Sandeep Jadoonanan -- Creator -- @sandcoder
 
 # THANKS
 
-    <name>
+    Ian Lunn - Hover.css
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+    Hover.css
