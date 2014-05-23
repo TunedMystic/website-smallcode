@@ -289,6 +289,11 @@ a.gp-page-link {
 
 .big-div-projects ul {
     padding-top: 80px;
+    width: 610px;
+}
+
+.big-div-projects ul li.project-item {
+    margin-top: 43px;
 }
 
 /* Project thumbnails */
@@ -484,6 +489,14 @@ a.gp-page-link {
 
     .big-div-personal hr {
         width: 90%;
+    }
+    
+    .big-div-projects ul {
+        width: auto;
+    }
+    
+    .big-div-projects ul li.project-item {
+        margin-top: 0px;
     }
 
 }
